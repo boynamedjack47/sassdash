@@ -128,7 +128,6 @@ body {
 
 .material-symbols-outlined {
   font-size: 24px;
-  color: black;
 }
 
 .market {
@@ -146,4 +145,13 @@ body {
   display: flex;
   padding: 0px 0px 0px 950px;
   gap: 25px;
+}
+
+#search {
+  border-radius: 7px;
+  background-color: #f5f7fb;
+}
+
+.nav-item {
+  color: white;
 }/*# sourceMappingURL=style.css.map */

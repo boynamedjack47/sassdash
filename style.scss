@@ -73,7 +73,7 @@ justify-content: flex-end;}
 
 .material-symbols-outlined {
     font-size: 24px;
-    color: black; // Ensure the color is visible
+ // Ensure the color is visible
 }
 
 .market {
@@ -92,3 +92,15 @@ justify-content: flex-end;}
     padding: 0px 0px 0px 950px;
     gap: 25px
 }
+
+#search {
+    border-radius: 7px;
+    background-color: $secondarycolor-bg-color;
+}
+
+.nav-item {
+    color: $navcolor-color;
+}
+
+
+
