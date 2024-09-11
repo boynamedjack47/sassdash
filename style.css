@@ -95,7 +95,7 @@ body {
 .box1 {
   background-color: white;
   padding: 0px;
-  border-radius: 10px;
+  border-radius: 0px;
   width: 49%;
   height: auto;
 }
@@ -132,7 +132,7 @@ body {
 }
 
 .boxcontainer {
-  width: 100%;
+  width: 105%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;

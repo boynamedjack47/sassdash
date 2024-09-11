@@ -109,7 +109,7 @@ img {
 .box1 {
     background-color: $box-bg-color;
     padding: 0px;
-    border-radius: $box-border-radius;
+    border-radius: 0px;
     width: 49%;
     height: $box-height;
 
@@ -156,7 +156,7 @@ img {
 
 .boxcontainer {
    
-      width: 100%;
+      width: 105%;
       height: 100%;
         display: flex;
         flex-wrap: wrap;
