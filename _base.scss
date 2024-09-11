@@ -176,3 +176,14 @@ img {
     justify-content: space-between;
     color: $secondarytextcolor-color;
 }
+.bottominvoice {
+    display: flex;
+    justify-content: space-between;
+
+    .binvoicesubc{
+        background-color: #c2eec0;
+        padding: 5px 10px;
+        color: $success-color;
+        border-radius: 10px;
+    }
+}
