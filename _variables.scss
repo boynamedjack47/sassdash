@@ -1,11 +1,14 @@
-$child-div-width: 25%; // 100% / 4 children = 25% each
+$child-div-width: 50%; // 100% / 4 children = 25% each
 $sidebar-bg-color: #000000; // Black color
 $active-bg-color: #000000;
-$secondarycolor-bg-color: #e9e5e5;
+$secondarycolor-bg-color: #f5f7fb;
+
+$success-color: #53ff03;
+$fail-color: #eb1b1b;
 
 
 /* Box variables */
-$box-bg-color: #f5f7fb;
+$box-bg-color: #ffff;
 $box-padding: 20px;
 $box-border-radius: 10px;
 $box-width: 100%;
