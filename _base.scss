@@ -80,10 +80,19 @@ body {
 img {
     width: 50%;
     align-self: end;
+    padding-left: 230px;
 }
 
 
 }
 .categorytext {
     display: grid;
+    gap:35px;
+    margin-top: 30px;
+
+}
+
+.secondary {
+    color: $secondarytextcolor-color;
+    font-size: 11px;
 }
