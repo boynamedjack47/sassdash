@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    border-radius: 1%;
+    border-radius: 0%;
     
     .logo {
         margin: 0px 0;
@@ -95,4 +95,11 @@ img {
 .secondary {
     color: $secondarytextcolor-color;
     font-size: 11px;
+    padding-top: 5px;
+}
+
+#date {
+    color: $secondarytextcolor-color;
+    border-radius: 7px;
+    font-size: 10px;
 }
