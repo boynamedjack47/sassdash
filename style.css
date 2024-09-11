@@ -115,8 +115,11 @@ body {
   color: #000;
 }
 
+.totalmarket {
+  padding-top: 2px;
+}
 .totalmarket img {
-  width: 15%;
+  width: 12%;
 }
 
 .prospects img {
@@ -124,11 +127,11 @@ body {
 }
 
 .leads img {
-  width: 15%;
+  width: 19%;
 }
 
 .sales img {
-  width: 15%;
+  width: 18%;
 }
 
 .boxcontainer {
