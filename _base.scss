@@ -13,7 +13,7 @@ body {
 }
 
 .sidebar {
-    width: 80px;  // Adjust width as needed
+    width: 90px;  // Adjust width as needed
     background-color: $sidebar-bg-color;  // Use a variable for background color
     display: flex;
     flex-direction: column;
@@ -22,14 +22,15 @@ body {
     border-radius: 1%;
     
     .logo {
-        margin: 20px 0;
+        margin: 0px 0;
         text-align: center;
     }
 
     .nav {
-        margin-top: 50px;
+        margin-top: 35px;
         width: 100%;  // Ensures nav items take up full width
-
+        display: grid;
+        gap: 15px;
         .nav-item {
             padding: 20px 0;
             text-align: center;
