@@ -119,6 +119,39 @@ img {
     .npercent {
         color: $fail-color;
     }
+    
+
+    img {
+        float: right;
+        width: 45%;
+    }
+}
+
+.money {
+    font-size: x-large;
+   color: #000;
+}
+
+.totalmarket {
+    img {
+        width:15%;
+    }
+}
+.prospects {
+    img {
+        width:15%;
+    }
+}
+.leads {
+    img {
+        width:15%;
+    }
+}
+
+.sales {
+    img {
+        width:15%;
+    }
 }
 
 .boxcontainer {
@@ -133,3 +166,13 @@ img {
     
 }
 
+.funnelimage img {
+    width: 104%;
+    height: 80%;
+}
+
+.topinvoice {
+    display: flex;
+    justify-content: space-between;
+    color: $secondarytextcolor-color;
+}

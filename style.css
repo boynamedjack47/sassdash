@@ -105,6 +105,31 @@ body {
 .box1 .npercent {
   color: #eb1b1b;
 }
+.box1 img {
+  float: right;
+  width: 45%;
+}
+
+.money {
+  font-size: x-large;
+  color: #000;
+}
+
+.totalmarket img {
+  width: 15%;
+}
+
+.prospects img {
+  width: 15%;
+}
+
+.leads img {
+  width: 15%;
+}
+
+.sales img {
+  width: 15%;
+}
 
 .boxcontainer {
   padding-left: 20px;
@@ -113,6 +138,17 @@ body {
   flex-wrap: wrap;
   gap: 20px;
   background-color: #f5f7fb;
+}
+
+.funnelimage img {
+  width: 104%;
+  height: 80%;
+}
+
+.topinvoice {
+  display: flex;
+  justify-content: space-between;
+  color: #b7bfcb;
 }
 
 .logo img {
