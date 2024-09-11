@@ -89,7 +89,7 @@ justify-content: flex-end;}
 
 .utility {
     display: flex;
-    padding: 0px 0px 0px 950px;
+    padding: 0px 0px 0px 870px;
     gap: 25px
 }
 
@@ -100,7 +100,17 @@ justify-content: flex-end;}
 
 .nav-item {
     color: $navcolor-color;
+    img {
+        width: 36px;
+    }
 }
 
+h1 {
+    padding-left: 10px;
+}
 
+.salesimage{
+    display: flex;
+    height: 91%;
+}
 
