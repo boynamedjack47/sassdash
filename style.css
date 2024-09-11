@@ -161,6 +161,9 @@ body {
   color: #4ee00a;
   border-radius: 10px;
 }
+.bottominvoice .binvoicesub {
+  text-align: center;
+}
 
 .logo img {
   width: 70%;
