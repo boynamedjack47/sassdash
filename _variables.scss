@@ -3,6 +3,7 @@ $sidebar-bg-color: #000000; // Black color
 $active-bg-color: #000000;
 $secondarycolor-bg-color: #f5f7fb;
 
+$secondarytextcolor-color: #f5f7fb;
 $success-color: #53ff03;
 $fail-color: #eb1b1b;
 
@@ -13,3 +14,6 @@ $box-padding: 20px;
 $box-border-radius: 10px;
 $box-width: 46%;
 $box-height: auto;
+
+/* Header variables */
+$header-display:flex;

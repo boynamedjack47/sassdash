@@ -55,3 +55,16 @@
     height: $box-height;
 
 }
+.searchbar {display: flex;
+justify-content: flex-end;}
+
+.market {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}

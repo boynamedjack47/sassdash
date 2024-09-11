@@ -1,4 +1,5 @@
 /* Box variables */
+/* Header variables */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -108,4 +109,19 @@ body {
   border-radius: 10px;
   width: 99%;
   height: auto;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.market {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */
