@@ -30,6 +30,8 @@
 }
 
 .maincontent {
+    padding-left: 20px;
+    padding-top: 25px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -43,4 +45,13 @@
     border-radius: $box-border-radius;
     width: $box-width;
     height: $box-height;
+}
+
+.invoice {
+    background-color: $box-bg-color;
+    padding: $box-padding;
+    border-radius: $box-border-radius;
+    width: 99%;
+    height: $box-height;
+
 }
