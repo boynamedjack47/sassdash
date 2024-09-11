@@ -9,6 +9,38 @@
     display: flex;
 }
 
-.maincontent {
+
+
+
+
+.content-area {
     display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;  // Ensure the topbar spans the entire content-area width
+    box-sizing: border-box;  // Include padding in the width
+}
+
+.maincontent {
+    display: grid;
+    
+    gap: 20px;
+
+    background-color: $secondarycolor-bg-color;
+}
+
+.box {
+    background-color: $box-bg-color;
+    padding: $box-padding;
+    border-radius: $box-border-radius;
+    width: $box-width;
+    height: $box-height;
 }
