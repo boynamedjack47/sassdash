@@ -1,4 +1,14 @@
-@import 'base';
-@import 'header';
 @import 'variables';
+@import 'base'; 
+@import 'header';
 
+
+.logo img {width: 100%;}
+
+.allcontent  {
+    display: flex;
+}
+
+.maincontent {
+    display: flex;
+}
