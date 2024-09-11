@@ -124,4 +124,20 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+}
+
+.material-symbols-outlined {
+  font-size: 24px;
+  color: black;
+}
+
+.market {
+  color: #b7bfcb;
+}
+
+.revenue,
+.transaction,
+.visitors,
+.products {
+  color: #b7bfcb;
 }/*# sourceMappingURL=style.css.map */
