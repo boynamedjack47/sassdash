@@ -73,3 +73,17 @@ body {
         padding: 20px;
     }
 }
+
+.category
+{display: flex;
+
+img {
+    width: 50%;
+    align-self: end;
+}
+
+
+}
+.categorytext {
+    display: grid;
+}

@@ -64,6 +64,18 @@ body {
   padding: 20px;
 }
 
+.category {
+  display: flex;
+}
+.category img {
+  width: 50%;
+  align-self: end;
+}
+
+.categorytext {
+  display: grid;
+}
+
 .logo img {
   width: 70%;
   margin-top: 15px;
