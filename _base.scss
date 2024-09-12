@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
-    border-radius: 0%;
+    border-radius: 0%;}
     
     .logo {
         margin: 0px 0;
@@ -44,6 +44,13 @@ body {
                 font-size: 24px;  // Example for icon size
             }
         }
+    }
+    .userprofile {
+        display: flex;
+        margin-top: 325px;
+        margin-left: 17px;
+
+       img {width: 80%;
     }
 }
 
@@ -75,16 +82,16 @@ body {
 }
 
 .category
-{display: flex;
-
-img {
-    width: 50%;
-    align-self: end;
-    padding-left: 230px;
+{
+    display: flex;
+    img {
+        width: 50%;
+        align-self: end;
+        padding-left: 230px;
+    }
 }
 
 
-}
 .categorytext {
     display: grid;
     gap:35px;
