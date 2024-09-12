@@ -1,5 +1,6 @@
 /* Box variables */
 /* Header variables */
+/* Invoice variables */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -170,6 +171,8 @@ ul {
 .topinvoice {
   display: flex;
   justify-content: space-between;
+}
+.topinvoice .greytext {
   color: #b7bfcb;
 }
 
@@ -177,14 +180,22 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-.bottominvoice .binvoicesubc {
+
+.binvoicesubc {
   background-color: #c2eec0;
   padding: 5px 10px;
   color: #4ee00a;
   border-radius: 10px;
 }
-.bottominvoice .binvoicesub {
+
+.binvoicesub {
   text-align: center;
+}
+
+.topinvoice > * {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .logo img {

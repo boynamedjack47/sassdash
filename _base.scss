@@ -133,13 +133,14 @@ ul {
     .npercent {
         color: $fail-color;
     }
-    
-
+  
     img {
         float: right;
         width: 45%;
     }
 }
+
+
 
 .money {
     font-size: x-large;
@@ -189,12 +190,16 @@ ul {
 .topinvoice {
     display: flex;
     justify-content: space-between;
-    color: $secondarytextcolor-color;
+    
+
+    .greytext { 
+        color: $secondarytextcolor-color;
+    }
 }
 .bottominvoice {
     display: flex;
     justify-content: space-between;
-
+}
     .binvoicesubc{
         background-color: #c2eec0;
         padding: 5px 10px;
@@ -204,4 +209,11 @@ ul {
     .binvoicesub{
         text-align: center;
     }
-}
+
+    .topinvoice > * {
+
+display: flex;
+flex-direction: column;
+gap: 20px
+
+    }
