@@ -28,7 +28,7 @@ body {
 
     .nav {
         margin-top: 35px;
-        width: 100%;  // Ensures nav items take up full width
+        width: 100%;  
         display: grid;
         gap: 15px;
         .nav-item {
@@ -36,14 +36,20 @@ body {
             text-align: center;
             cursor: pointer;
 
-            &.active {
-                background-color: $active-bg-color;
-            }
+    
 
             .icon {
-                font-size: 24px;  // Example for icon size
+                font-size: 24px;  
             }
         }
+    }
+
+    .nav-item1{
+        background-color: blue;
+        padding: 20px 0;
+            text-align: center;
+            cursor: pointer;
+
     }
     .userprofile {
         display: flex;
@@ -190,6 +196,7 @@ ul {
 .topinvoice {
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
     
 
     .greytext { 

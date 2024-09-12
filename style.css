@@ -37,11 +37,15 @@ body {
   text-align: center;
   cursor: pointer;
 }
-.nav .nav-item.active {
-  background-color: #000;
-}
 .nav .nav-item .icon {
   font-size: 24px;
+}
+
+.nav-item1 {
+  background-color: blue;
+  padding: 20px 0;
+  text-align: center;
+  cursor: pointer;
 }
 
 .userprofile {
@@ -171,6 +175,7 @@ ul {
 .topinvoice {
   display: flex;
   justify-content: space-between;
+  margin-top: 15px;
 }
 .topinvoice .greytext {
   color: #b7bfcb;
