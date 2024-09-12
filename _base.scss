@@ -98,6 +98,13 @@ img {
     padding-top: 5px;
     display: flex;
 }
+.subsection1 {
+li::marker{
+    color: $companycolor-color;
+} }
+ul {
+    display: contents;
+}
 
 #date {
     color: $secondarytextcolor-color;

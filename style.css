@@ -86,6 +86,14 @@ body {
   display: flex;
 }
 
+.subsection1 li::marker {
+  color: blue;
+}
+
+ul {
+  display: contents;
+}
+
 #date {
   color: #b7bfcb;
   border-radius: 7px;
