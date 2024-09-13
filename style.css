@@ -129,7 +129,10 @@ ul {
 .box1 .box1text {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+.box1 .box1head {
+  color: #b7bfcb;
 }
 .box1 .ppercent {
   color: #4ee00a;
@@ -149,10 +152,14 @@ ul {
   font-size: 11px;
   display: flex;
 }
+.box1 .money {
+  font-size: xx-large;
+}
 
 .money {
   font-size: x-large;
   color: #000;
+  font-weight: bold;
 }
 
 .totalmarket {
