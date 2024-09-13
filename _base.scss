@@ -3,18 +3,27 @@
 $sidebar-bg-color: #000;  
 $active-bg-color: #000;   
 
+* {
+    box-sizing: border-box;
+  }
+
+  
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    
 }
 
 .sidebar {
-    width: 90px;  // Adjust width as needed
-    background-color: $sidebar-bg-color;  // Use a variable for background color
+    width: 90px; 
+    background-color: $sidebar-bg-color;  
    @include flexc;
     align-items: center;
     position: relative;
     border-radius: 0%;}
+
+  
     
     .logo {
         margin: 0px 0;
@@ -30,7 +39,7 @@ body {
             padding: 20px 0;
             text-align: center;
             cursor: pointer;
-            
+
             .icon {
                 font-size: 24px;  
             }
