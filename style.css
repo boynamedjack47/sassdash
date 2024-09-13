@@ -119,14 +119,17 @@ ul {
 
 .box1 {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   height: 100%;
   background-color: white;
   padding: 0px;
   border-radius: 0px;
   width: 49%;
   height: auto;
+}
+.box1 .box1text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .box1 .ppercent {
   color: #4ee00a;
@@ -135,8 +138,8 @@ ul {
   color: #eb1b1b;
 }
 .box1 img {
-  float: right;
-  width: 45%;
+  width: 50%;
+  margin-bottom: 40px;
   margin-top: auto;
   align-self: flex-end;
 }
@@ -237,7 +240,7 @@ ul {
   background-color: white;
   padding: 10px;
   border-bottom: 1px solid #ddd;
-  width: 101%;
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -299,7 +302,7 @@ ul {
 .utility {
   display: flex;
   padding: 0px 0px 0px 870px;
-  gap: 25px;
+  gap: 24px;
 }
 
 #search {
