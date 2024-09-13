@@ -1,0 +1,10 @@
+@mixin box-styling($bg-color, $padding: 20px, $border-radius: 10px) {
+    background-color: $bg-color;
+    padding: $padding;
+    border-radius: $border-radius;
+  }
+
+  @mixin flexc {
+    display: flex;
+    flex-direction: column;
+  }

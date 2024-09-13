@@ -7,11 +7,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container {
-  display: flex;
-  height: 100vh;
-}
-
 .sidebar {
   width: 90px;
   background-color: #000;
@@ -330,5 +325,5 @@ h1 {
 
 .salesimage {
   display: flex;
-  height: 91%;
+  height: 85%;
 }/*# sourceMappingURL=style.css.map */
