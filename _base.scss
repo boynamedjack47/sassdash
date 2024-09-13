@@ -125,8 +125,10 @@ ul {
     font-size: 10px;
 }
 
-
-.box1 {
+.box1 {display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
     background-color: $box-bg-color;
     padding: 0px;
     border-radius: 0px;
@@ -143,8 +145,18 @@ ul {
     img {
         float: right;
         width: 45%;
+        margin-top: auto; 
+        align-self: flex-end; 
     }
+    .secondary {
+        margin-top: 10px; 
+        color: #b7bfcb;
+        font-size: 11px;
+        display: flex;
+      }
 }
+
+  
 
 
 
@@ -247,8 +259,8 @@ gap: 20px
             background-color: white;
             padding: 10px;
             border-bottom: 1px solid #ddd;
-            width: 100%;  // Ensure the topbar spans the entire content-area width
-            box-sizing: border-box;  // Include padding in the width
+            width: 101%;  
+            box-sizing: border-box;  
         }
         
         .maincontent {
